@@ -51,28 +51,13 @@ export default function Honda() {
                   <p>
                     <strong>Jarak dari pusat:</strong> 3,2 km
                   </p>
-<<<<<<< HEAD
-=======
-                  &lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
->>>>>>> d53cb50a1e7bdee9e298c54d04458edf23ad07cb
                   <p>
                     <strong>Harga untuk 1 hari:</strong> Rp100.000.000
                   </p>
                   <button type="submit" className="btn btn-primary">
                     Pesan
                   </button>
-<<<<<<< HEAD
-=======
-                  =======
-                  <p>
-                    <strong>Harga untuk 1 hari:</strong> Rp30.000.000
-                  </p>
-                  <button type="submit" className="btn btn-primary">
-                    Lihat Pesanan
-                  </button>
-                  &gt;&gt;&gt;&gt;&gt;&gt;&gt;
-                  16c8e2f376e3b53b7608296bcdb597888dca4c97
->>>>>>> d53cb50a1e7bdee9e298c54d04458edf23ad07cb
+
                 </div>
               </div>
             </div>
@@ -97,7 +82,7 @@ export default function Honda() {
                   <p className="card-text">
                     Mobil HR-V LX adalah pilihan yang sempurna untuk menikmati
                     perjalanan dan adu gengsi di kota. Dengan kapasitas 4 kursi,
-                    dan memiliki fitur modern.
+                   dan memiliki fitur modern.
                   </p>
                   <p>
                     <strong>Lokasi:</strong> Condong Catur
@@ -105,28 +90,13 @@ export default function Honda() {
                   <p>
                     <strong>Jarak dari pusat:</strong> 3,2 km
                   </p>
-<<<<<<< HEAD
-=======
-                  &lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
->>>>>>> d53cb50a1e7bdee9e298c54d04458edf23ad07cb
+
                   <p>
                     <strong>Harga untuk 1 hari:</strong> Rp80.000.000
                   </p>
                   <button type="submit" className="btn btn-primary">
                     Pesan
                   </button>
-<<<<<<< HEAD
-=======
-                  =======
-                  <p>
-                    <strong>Harga untuk 1 hari:</strong> Rp1.000.000
-                  </p>
-                  <button type="submit" className="btn btn-primary">
-                    Lihat Pesanan
-                  </button>
-                  &gt;&gt;&gt;&gt;&gt;&gt;&gt;
-                  16c8e2f376e3b53b7608296bcdb597888dca4c97
->>>>>>> d53cb50a1e7bdee9e298c54d04458edf23ad07cb
                 </div>
               </div>
             </div>

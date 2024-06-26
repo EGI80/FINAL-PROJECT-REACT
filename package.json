@@ -7,7 +7,6 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-<<<<<<< HEAD
     "preview": "vite preview",
     "start": "react-scripts start",
     "test": "react-scripts test",
@@ -16,16 +15,10 @@
   "dependencies": {
     "@eslint/config-array": "^0.16.0",
     "@eslint/object-schema": "^2.1.4",
-=======
-    "preview": "vite preview"
-  },
-  "dependencies": {
->>>>>>> d53cb50a1e7bdee9e298c54d04458edf23ad07cb
     "axios": "^1.7.2",
     "body-parser": "^1.20.2",
     "cors": "^2.8.5",
     "express": "^4.19.2",
-<<<<<<< HEAD
     "glob": "^10.4.2",
     "lru-cache": "^10.2.2",
     "mysql": "^2.18.1",
@@ -33,12 +26,6 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.23.1",
     "rimraf": "^5.0.7"
-=======
-    "mysql": "^2.18.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.23.1"
->>>>>>> d53cb50a1e7bdee9e298c54d04458edf23ad07cb
   },
   "devDependencies": {
     "@types/react": "^18.2.66",

@@ -23,32 +23,6 @@ export default function Penawaranpages() {
             </button>
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav">
-<<<<<<< HEAD
-=======
-                <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">
-                    Home
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#">
-                    Cars
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#">
-                    Deals
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a
-                    className="nav-link disabled"
-                    href="#"
-                    tabIndex={-1}
-                    aria-disabled="true"
-                  />
-                </li>
->>>>>>> d53cb50a1e7bdee9e298c54d04458edf23ad07cb
               </ul>
             </div>
           </div>

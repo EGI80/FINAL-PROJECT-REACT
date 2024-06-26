@@ -75,11 +75,7 @@
     font-weight: bold;
 }
 .lokasi-penjemputan {
-<<<<<<< HEAD
     margin-top: -70px;
-=======
-    margin-top: -60px;
->>>>>>> d53cb50a1e7bdee9e298c54d04458edf23ad07cb
 }
 .waktu-penjemputan{
     margin-left: 590px;
@@ -90,11 +86,7 @@
     margin-top: -25px;
 }
 .mobil-pilihan{
-<<<<<<< HEAD
     margin-top: -70px;
-=======
-    margin-top: -60px;
->>>>>>> d53cb50a1e7bdee9e298c54d04458edf23ad07cb
     margin-left: 5px;
 
 }
@@ -149,20 +141,10 @@
 .bandara{
     margin-left: 300px;
     margin-right: 70px;
-<<<<<<< HEAD
-    margin-top: 100px;
-=======
-    margin-top: 50px;
->>>>>>> d53cb50a1e7bdee9e298c54d04458edf23ad07cb
 }
 .destinasi{
-    margin-left: 70px;
-    margin-right: 70px;
-<<<<<<< HEAD
-    margin-top: 100px;
-=======
-    margin-top: 50px;
->>>>>>> d53cb50a1e7bdee9e298c54d04458edf23ad07cb
+    margin-left: 100px;
+    margin-right: 100px;
 }
 #detailKota {
     display: none;
@@ -199,11 +181,6 @@
   display: none;
 }
 .faq-informasi {
-<<<<<<< HEAD
-    margin-top: -305px;
-=======
-    margin-top: -270px;
->>>>>>> d53cb50a1e7bdee9e298c54d04458edf23ad07cb
     max-width: 500px;
     margin-left: 730px;
     margin-right: auto;
