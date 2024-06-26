@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Team from './pages/team';
 import Homepage from './pages/homepage';
@@ -15,6 +16,30 @@ import Porsche from './pages/porsche';
 import Pembelian from './pages/pembelian';
 
 function App() {
+=======
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Homepage from './pages/homepage'
+import Storiespage from './pages/storiespage'
+import Mobilepage from './pages/mobilpage'
+import Bmw from './pages/bmw'
+import TrickPage from './pages/trickpage'
+import Penawaranpages from './pages/penawaran'
+import Bugatti from './pages/bugatti'
+import Ferrari from './pages/ferrari'
+import Lamborghini from './pages/lamborghini'
+import Honda from './pages/honda'
+import Ford from './pages/ford'
+import Porsche from './pages/porsche'
+import Pembelian from './pages/pembelian'
+
+
+function App() {
+
+>>>>>>> d53cb50a1e7bdee9e298c54d04458edf23ad07cb
   return (
     <>
       <BrowserRouter>
@@ -32,11 +57,23 @@ function App() {
           <Route path="/trick" element={<TrickPage />} />
           <Route path="/penawaran" element={<Penawaranpages />} />
           <Route path="/pembelian" element={<Pembelian />} />
+<<<<<<< HEAD
           <Route path="/team" element={<Team />} />
+=======
+>>>>>>> d53cb50a1e7bdee9e298c54d04458edf23ad07cb
         </Routes>
       </BrowserRouter>
     </>
   );
 }
 
+<<<<<<< HEAD
 export default App;
+=======
+
+
+
+
+
+export default App
+>>>>>>> d53cb50a1e7bdee9e298c54d04458edf23ad07cb
