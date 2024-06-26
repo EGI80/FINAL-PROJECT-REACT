@@ -10,6 +10,24 @@
   background-position: 0px -350px;
   color: rgb(254, 254, 254);
   
+  
+}
+
+
+#jumbo8 .btn {
+  margin-top: 20px;
+  font-size: 1.5rem; 
+  padding: 15px 30px; 
+  border-radius: 15px; 
+  background-color: #007bff; 
+  color: #fff; 
+  text-transform: uppercase; 
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#jumbo8 .btn:hover {
+  background-color: #0056b3; 
+  transform: scale(1.1); 
 }
 
 
@@ -58,11 +76,6 @@ margin-left: auto;
 }
 
 
-#gambar :hover{
-  filter: brightness(70%);
-  transition: filter 0.5s ease;
-  
-}
 
 .card{
   transition: filter 0.3s ease;
@@ -102,15 +115,7 @@ body {
   }
 
 
-  #cardm{
-    background-image: url(img/everest.jpg);
-  }
-  #cardf{
-    background-image: url(img/1Rajaampat.jpeg);
-  }
-  #cardk{
-    background-image: url(img/1lampung.jpg);
-  }
+
   
   .navid{
     
@@ -129,3 +134,20 @@ body {
     font-weight: bold;
     font-size: 30px;
   }
+
+  #jumbo8 {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  #jumbo8 > * {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  }
+  
+  #jumbo8:hover > * {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  

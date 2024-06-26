@@ -17,6 +17,7 @@ import Ford from './pages/ford'
 import Porsche from './pages/porsche'
 import Pembelian from './pages/pembelian'
 import Team from './pages/team';
+import LoginForm from './pages/Login'
 
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
           <Route path="/penawaran" element={<Penawaranpages />} />
           <Route path="/pembelian" element={<Pembelian />} />
           <Route path="/team" element={<Team />} />
+          <Route path="/login" element={<LoginForm />} />
         </Routes>
       </BrowserRouter>
     </>

@@ -100,7 +100,7 @@ export default function Homepage() {
         <div className="jumbotron jumbotron-lg" id="jumbo8">
           <p className="display-4 font-weight-bold text-white">Pesan tiket penerbangan</p>
           <h3 className="display-5">situs lain sederhadan tidak dapat menemukan.</h3>
-          <a href="/pembelian" class="btn btn-primary">Pesan sekarang</a>
+          <a href="/pembelian" class="btn btn-primary mt-9">Pesan sekarang</a>
 
         </div>
        
