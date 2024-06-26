@@ -9,20 +9,6 @@ export default function Storiespage() {
           <a href="#" className="logo">
             Tips explore.com
           </a>
-          <ul className="nav-links">
-            <li>
-              <a href="#">Home</a>
-            </li>
-            <li>
-              <a href="#">About</a>
-            </li>
-            <li>
-              <a href="#">Services</a>
-            </li>
-            <li>
-              <a href="#">Contact</a>
-            </li>
-          </ul>
           <div className="burger">
             <div className="line1" />
             <div className="line2" />
@@ -94,7 +80,7 @@ export default function Storiespage() {
           Anda tentang berita EHE.com!
         </p>
       </div>
-      <div className="container"id='con'>
+      <div className="container" id='con'>
         <div className="row">
           <div className="card-w mr-4" style={{ width: "18rem" }}>
             <img

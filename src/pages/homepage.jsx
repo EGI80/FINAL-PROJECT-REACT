@@ -80,7 +80,7 @@ export default function Homepage() {
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link" to={"/trick"}>
-                    Travel Tips
+                    About
                   </Link>
                 </li>
                 <li className="nav-item">

@@ -139,12 +139,14 @@
     margin-bottom: 5px;
 }
 .bandara{
-    margin-left: 300px;
+    margin-left: 400px;
     margin-right: 70px;
+    margin-top: 100px;
 }
 .destinasi{
     margin-left: 100px;
     margin-right: 100px;
+    margin-top: 100px;
 }
 #detailKota {
     display: none;
@@ -184,6 +186,7 @@
     max-width: 500px;
     margin-left: 730px;
     margin-right: auto;
+    margin-top: -300px;
   }
   
   .faq-informasi h6 {

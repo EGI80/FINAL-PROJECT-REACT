@@ -59,7 +59,7 @@ const Team = () => {
   ];
 
   return (
-    <div className="tim-container-member">
+    <div className="member">
       <div className="tim-header">
         <h1>Tim Kami</h1>
         <p>Kenali lebih dekat dengan tim profesional kami.</p>
