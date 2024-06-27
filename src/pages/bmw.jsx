@@ -3,16 +3,6 @@ import React from 'react'
 function Bmw() {
   return (
     <>
-      <nav className="navbar navbar-light bg-primary">
-        <a className="navbar-brand" href="#">
-          trips explore.com
-        </a>
-        <div>
-          <button className="pesanan">
-            <b>Kelola Pesanan</b>
-          </button>
-        </div>
-      </nav>
       <div className="logo-bmw">
         <img
           src="/img/logo lamborghini.png"
@@ -139,9 +129,6 @@ function Bmw() {
           </div>
         </form>
       </div>
-      <footer className="bg-primary text-light text-center py-3">
-        <p>© 2024 Ezy.com. All rights reserved.</p>
-      </footer>
     </>
   );
 }

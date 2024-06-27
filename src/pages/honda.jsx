@@ -3,16 +3,6 @@ import React from 'react'
 export default function Honda() {
   return (
     <>
-      <nav className="navbar navbar-light bg-primary">
-        <a className="navbar-brand" href="#">
-          Trips explore
-        </a>
-        <div>
-          <button className="pesanan">
-            <b>Kelola Pesanan</b>
-          </button>
-        </div>
-      </nav>
       <div className="logo-bmw">
         <img
           src="/img/logo honda.png"
@@ -141,9 +131,6 @@ export default function Honda() {
           </div>
         </form>
       </div>
-      <footer className="bg-primary text-light text-center py-3">
-        <p>© 2024 Ezy.com. All rights reserved.</p>
-      </footer>
     </>
   );
 }

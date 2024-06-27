@@ -5,28 +5,6 @@ export default function Penawaranpages() {
   return (
     <>
       <div className="deals">
-        <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
-          <div className="container-fluid">
-            <a className="navbar-brand" href="#">
-              Trips Explore
-            </a>
-            <button
-              className="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNav"
-              aria-controls="navbarNav"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span className="navbar-toggler-icon" />
-            </button>
-            <div className="collapse navbar-collapse" id="navbarNav">
-              <ul className="navbar-nav">
-              </ul>
-            </div>
-          </div>
-        </nav>
         <div className="top ">
           <div className="w-2 title ">
             <h1>Flight deals from jakarta, indonesia</h1>
@@ -161,7 +139,7 @@ export default function Penawaranpages() {
           </div>
           <div className="card-body ">
             <div className="shadow p-3 bg-white rounded ">
-              <h2 className="card-title">Nusa Tenggara B</h2>
+              <h2 className="card-title">Nusa Tenggara Barat</h2>
               <h2 href="#" className="btn btn-primary">
                 3,625,890
               </h2>
@@ -558,124 +536,6 @@ export default function Penawaranpages() {
           </div>
         </div>
       </div>
-      <footer className="text-center text-lg-start bg-light text-muted">
-        <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-          <div className="me-5 d-none d-lg-block">
-            <span>
-              Follow us on social networks for the latest info and promotions:
-            </span>
-          </div>
-          <div>
-            <a href="" className="me-4 text-reset">
-              <i className="bi bi-facebook" />
-            </a>
-            <a href="" className="me-4 text-reset">
-              <i className="bi bi-twitter" />
-            </a>
-            <a href="" className="me-4 text-reset">
-              <i className="bi bi-google" />
-            </a>
-            <a href="" className="me-4 text-reset">
-              <i className="bi bi-instagram" />
-            </a>
-            <a href="" className="me-4 text-reset">
-              <i className="bi bi-linkedin" />
-            </a>
-            <a href="" className="me-4 text-reset">
-              <i className="bi bi-github" />
-            </a>
-          </div>
-        </section>
-        <section className="">
-          <div className="container text-center text-md-start mt-5">
-            <div className="row mt-3">
-              <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                <h6 className="text-uppercase fw-bold mb-4">
-                  <i className="bi bi-gem me-3" />
-                  Trips Explore
-                </h6>
-                <p>
-                  Discover new adventures and create unforgettable memories with
-                  our travel services. Explore the world with comfort and the
-                  best prices.
-                </p>
-              </div>
-              <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                <h6 className="text-uppercase fw-bold mb-4">Products</h6>
-                <p>
-                  <a href="#!" className="text-reset">
-                    Angular
-                  </a>
-                </p>
-                <p>
-                  <a href="#!" className="text-reset">
-                    React
-                  </a>
-                </p>
-                <p>
-                  <a href="#!" className="text-reset">
-                    Vue
-                  </a>
-                </p>
-                <p>
-                  <a href="#!" className="text-reset">
-                    Laravel
-                  </a>
-                </p>
-              </div>
-              <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                <h6 className="text-uppercase fw-bold mb-4">Useful links</h6>
-                <p>
-                  <a href="#!" className="text-reset">
-                    Pricing
-                  </a>
-                </p>
-                <p>
-                  <a href="#!" className="text-reset">
-                    Settings
-                  </a>
-                </p>
-                <p>
-                  <a href="#!" className="text-reset">
-                    Orders
-                  </a>
-                </p>
-                <p>
-                  <a href="#!" className="text-reset">
-                    Help
-                  </a>
-                </p>
-              </div>
-              <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
-                <p>
-                  <i className="bi bi-house me-3" />
-                  Daerah Istimewa Yogyakarta 55584
-                </p>
-                <p>
-                  <i className="bi bi-envelope me-3" />
-                  hamkananda@students.amikom.ac.id
-                </p>
-                <p>
-                  <i className="bi bi-phone me-3" /> +62 1234 1234
-                </p>
-                <p>
-                  <i className="bi bi-printer me-3" /> +62 1234 1234
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
-        <div
-          className="text-center p-4"
-          style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}
-        >
-          © 2024 Hak Cipta Dilindungi
-          <a className="text-reset fw-bold" href="https://mdbootstrap.com/">
-            https://tripsexplore.com/
-          </a>
-        </div>
-      </footer>
     </>
   );
 }

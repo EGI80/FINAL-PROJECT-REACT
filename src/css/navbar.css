@@ -1,0 +1,38 @@
+/* navbar.css */
+
+.nb {
+    padding-right: 10px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+  }
+  
+  .nb2 {
+    font-family: sans-serif;
+    color: tomato;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    padding: 0px 40px;
+  }
+  
+  .pesanan {
+    padding: 8px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #efefef;
+    box-shadow: -6px -7px -10px #00000026;
+    color: #0066ff;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .pesanan:hover {
+    box-shadow: 5px 5px 5px #001aff, -2px -2px 2px #00000026;
+  }
+  

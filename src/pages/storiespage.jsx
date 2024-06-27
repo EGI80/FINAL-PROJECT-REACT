@@ -4,18 +4,6 @@ import '../css/storiespage.css'
 export default function Storiespage() {
   return (
     <>
-      <nav className="navbar position-absolute">
-        <div className="container">
-          <a href="#" className="logo">
-            Tips explore.com
-          </a>
-          <div className="burger">
-            <div className="line1" />
-            <div className="line2" />
-            <div className="line3" />
-          </div>
-        </div>
-      </nav>
       <div
         id="carouselExampleControls"
         className="carousel slide"

@@ -13,11 +13,6 @@ export default function TrickPage() {
         banyak tentang bagaimana mereka bekerja dan dapatkan penawaran
         penerbangan di trips explore.com
       </h4>
-      <div className="text-center mb-4">
-        <button type="button" className="btn btn-dark rounded-pill mt-3 mb-3">
-          JELAJAHI TRIK PERJALANAN
-        </button>
-      </div>
       <div className="row mb-4 ml-auto">
         <a
           href="#"
@@ -259,7 +254,7 @@ export default function TrickPage() {
         </div>
         <div className="col-md-6">
           <div>
-            <p className="font-weight-bold">Jaminan Ghifar.com</p>
+            <p className="font-weight-bold">Jaminan TripsExplore.com</p>
             <p>
               Jaminan kami memberikan Anda ketenangan pikiran kapan saja dan di
               mana saja Anda bepergian. Ini melindungi Anda di semua koneksi
@@ -323,7 +318,7 @@ export default function TrickPage() {
       </div>
       <meta charSet="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Ghifar.com - Perjalanan</title>
+      <title>TripsExplore - Perjalanan</title>
       <link rel="stylesheet" href="style.css" />
       <main
         style={{
@@ -389,7 +384,7 @@ export default function TrickPage() {
       </h5>
       <meta charSet="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Ghifar.com - Inovasi Perjalanan</title>
+      <title>TripsExplore.com - Inovasi Perjalanan</title>
       <style
         dangerouslySetInnerHTML={{
           __html:
@@ -646,172 +641,6 @@ export default function TrickPage() {
           untuk membuat perjalanan lebih mudah dan murah bagi para pengembara
           seperti Anda.
         </h5>
-      </div>
-      <div className="container">
-        <footer className="py-5">
-          <div className="row">
-            <div className="col-6 col-md-2 mb-3">
-              <h5>Perusahaan</h5>
-              <ul className="nav flex-column">
-                <li className="nav-item mb-2">
-                  <a href="#" className="nav-link p-0 text-muted">
-                    Syarat &amp; Ketentuan
-                  </a>
-                </li>
-                <li className="nav-item mb-2">
-                  <a href="#" className="nav-link p-0 text-muted">
-                    Syarat Penggunaan
-                  </a>
-                </li>
-                <li className="nav-item mb-2">
-                  <a href="#" className="nav-link p-0 text-muted">
-                    Kebijakan Privasi
-                  </a>
-                </li>
-                <li className="nav-item mb-2">
-                  <a href="#" className="nav-link p-0 text-muted">
-                    Ruang Media
-                  </a>
-                </li>
-                <li className="nav-item mb-2">
-                  <a href="#" className="nav-link p-0 text-muted">
-                    Keamanan
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div className="col-6 col-md-2 mb-3">
-              <h5>PLATFORM</h5>
-              <ul className="nav flex-column">
-                <li className="nav-item mb-2">
-                  <a href="#" className="nav-link p-0 text-muted">
-                    Tengtang
-                  </a>
-                </li>
-                <li className="nav-item mb-2">
-                  <a href="#" className="nav-link p-0 text-muted" />
-                  Triks Perjalanan
-                </li>
-                <li className="nav-item mb-2">
-                  <a href="#" className="nav-link p-0 text-muted">
-                    Orang
-                  </a>
-                </li>
-                <li className="nav-item mb-2">
-                  <a href="#" className="nav-link p-0 text-muted">
-                    Info Perusahaan
-                  </a>
-                </li>
-                <li className="nav-item mb-2">
-                  <a href="#" className="nav-link p-0 text-muted">
-                    Kemitraan
-                  </a>
-                </li>
-                <li className="nav-item mb-2">
-                  <a href="#" className="nav-link p-0 text-muted">
-                    pekerjaan
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div className="col-6 col-md-2 mb-3">
-              <h5>BANTUAN DUKUNGAN</h5>
-              <ul className="nav flex-column">
-                <li className="nav-item mb-2">
-                  <a href="#" className="nav-link p-0 text-muted">
-                    Butuh bantuan?
-                  </a>
-                </li>
-                <li className="nav-item mb-2">
-                  <a href="#" className="nav-link p-0 text-muted">
-                    Fitur
-                  </a>
-                </li>
-                <li className="nav-item mb-2">
-                  <a href="#" className="nav-link p-0 text-muted">
-                    Masuk / Daftar
-                  </a>
-                </li>
-                <li className="nav-item mb-2">
-                  <a href="#" className="nav-link p-0 text-muted">
-                    Aplikasi Mobile
-                  </a>
-                </li>
-                <li className="nav-item mb-2">
-                  <a href="#" className="nav-link p-0 text-muted">
-                    Peta Situs
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div className="col-6 col-md-2 mb-3">
-              <h5>TEMUKAN</h5>
-              <ul className="nav flex-column">
-                <li className="nav-item mb-2">
-                  <a href="#" className="nav-link p-0 text-muted">
-                    Penerbangan murah
-                  </a>
-                </li>
-                <li className="nav-item mb-2">
-                  <a href="#" className="nav-link p-0 text-muted">
-                    Negara
-                  </a>
-                </li>
-                <li className="nav-item mb-2">
-                  <a href="#" className="nav-link p-0 text-muted">
-                    Bandara
-                  </a>
-                </li>
-                <li className="nav-item mb-2">
-                  <a href="#" className="nav-link p-0 text-muted">
-                    Maskapai
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div className="col-md-5 offset-md-1 mb-3">
-              <form>
-                <div className="d-flex flex-column flex-sm-row w-100 gap-2">
-                  <label htmlFor="newsletter1" className="visually-hidden">
-                    Email address
-                  </label>
-                  <input
-                    id="newsletter1"
-                    type="text"
-                    className="form-control"
-                    placeholder="Email address"
-                  />
-                  <button className="btn btn-primary" type="button">
-                    Subscribe
-                  </button>
-                </div>
-              </form>
-            </div>
-          </div>
-          <ul className="list-unstyled d-flex">
-            <li className="ms-3">
-              <a className="link-dark" href="#">
-                <svg className="bi" width={24} height={24}>
-                  <use xlinkHref="#twitter" />
-                </svg>
-              </a>
-            </li>
-            <li className="ms-3">
-              <a className="link-dark" href="#">
-                <svg className="bi" width={24} height={24}>
-                  <use xlinkHref="#instagram" />
-                </svg>
-              </a>
-            </li>
-            <li className="ms-3">
-              <a className="link-dark" href="#">
-                <svg className="bi" width={24} height={24}>
-                  <use xlinkHref="#facebook" />
-                </svg>
-              </a>
-            </li>
-          </ul>
-        </footer>
       </div>
     </>
   );

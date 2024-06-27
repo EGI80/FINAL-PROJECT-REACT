@@ -75,9 +75,6 @@ const Team = () => {
           email={member.email}
         />
       ))}
-      <footer className="bg-primary text-light text-center py-3">
-        <p>&copy; 2024 Ezy.com. All rights reserved.</p>
-      </footer>
     </div>
   );
 };

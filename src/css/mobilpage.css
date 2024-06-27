@@ -1,22 +1,4 @@
-.navbar-brand {
-    font-weight: bold;
-    padding: 0px 40px;
-}
-.pesanan{
-    width: 150px;
-    height: 40px;
-    padding: 5px;
-    margin: 0px 10px;
-    border: none;
-    border-radius: 10px;
-    background-color: #efefef;
-    box-shadow: -6px -7px -10px #00000026;
-    color: #0066ff;
-    cursor: pointer;
-}
-.pesanan:hover{
-    box-shadow: 5px 5px 5px #001aff, -2px -2px 2px #00000026;
-}
+
 .navbar-logo {
     display: block;
     margin: auto; 
