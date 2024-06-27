@@ -114,27 +114,11 @@ body {
     border: none;
   }
 
-
-
-  
   .navid{
     
     margin-right: 10px;
   }
 
-  .nb{
-    padding-right: 10px;
-    font-family:sans-serif;
-    color: white;
-    font-weight: bold;
-    font-size: 35px;
-  }
-    .nb2{
-    font-family:sans-serif;
-    color: tomato;
-    font-weight: bold;
-    font-size: 30px;
-  }
 
   #jumbo8 {
     position: relative;
