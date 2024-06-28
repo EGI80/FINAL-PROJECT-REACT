@@ -1,38 +1,66 @@
-/* navbar.css */
+.navbar-container {
+  position: relative;
+  width: 100%;
+}
 
 .nb {
-    padding-right: 10px;
-    font-family: sans-serif;
-    color: white;
-    font-weight: bold;
-    font-size: 35px;
-  }
-  
-  .nb2 {
-    font-family: sans-serif;
-    color: tomato;
-    font-weight: bold;
-    font-size: 30px;
-  }
-  
-  .navbar-brand {
-    font-weight: bold;
-    padding: 0px 40px;
-  }
-  
-  .pesanan {
-    padding: 8px 20px;
-    margin-right: 10px;
-    border: none;
-    border-radius: 10px;
-    background-color: #efefef;
-    box-shadow: -6px -7px -10px #00000026;
-    color: #0066ff;
-    text-decoration: none;
-    cursor: pointer;
-  }
-  
-  .pesanan:hover {
-    box-shadow: 5px 5px 5px #001aff, -2px -2px 2px #00000026;
-  }
-  
+  padding-right: 10px;
+  font-family: sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.nb2 {
+  font-family: sans-serif;
+  color: tomato;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0,0,0,.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-toggler-icon:focus {
+  outline: none;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: white;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: tomato;
+}
+
+.pesanan-container {
+  position: absolute;
+  top: 22px; /* Adjust as necessary */
+  right: 10px; /* Adjust as necessary */
+}
+
+.pesanan {
+  padding: 8px 20px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #efefef;
+  box-shadow: -6px -7px -10px #00000026;
+  color: #0066ff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.pesanan:hover {
+  box-shadow: 5px 5px 5px #001aff, -2px -2px 2px #00000026;
+}

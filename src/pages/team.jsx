@@ -9,7 +9,7 @@ const TeamMember = (props) => (
     <div className="social-icons">
       <a href={props.instagram} className="social-icon"><i className="fab fa-instagram"></i></a>
       <a href={props.github} className="social-icon"><i className="fab fa-github"></i></a>
-      <a href={props.email} className="social-icon"><i className="fas fa-envelope"></i></a>
+      <a href={`mailto:${props.email}`} className="social-icon"><i className="fas fa-envelope"></i></a>
     </div>
   </div>
 );
@@ -43,7 +43,7 @@ const Team = () => {
     {
       name: 'MUHAMMAD GHOZI ALGHIFARI',
       id: '22.11.4682',
-      imgSrc: 'https://via.placeholder.com/150',
+      imgSrc: './img/ghifar.jpg',
       instagram: '#',
       github: '#',
       email: 'ghozi@example.com'
@@ -59,22 +59,24 @@ const Team = () => {
   ];
 
   return (
-    <div className="member">
+    <div className="tim-container">
       <div className="tim-header">
         <h1>Tim Kami</h1>
         <p>Kenali lebih dekat dengan tim profesional kami.</p>
       </div>
-      {teamMembers.map((member, index) => (
-        <TeamMember
-          key={index}
-          name={member.name}
-          id={member.id}
-          imgSrc={member.imgSrc}
-          instagram={member.instagram}
-          github={member.github}
-          email={member.email}
-        />
-      ))}
+      <div className="tim-container-member">
+        {teamMembers.map((member, index) => (
+          <TeamMember
+            key={index}
+            name={member.name}
+            id={member.id}
+            imgSrc={member.imgSrc}
+            instagram={member.instagram}
+            github={member.github}
+            email={member.email}
+          />
+        ))}
+      </div>
     </div>
   );
 };

@@ -54,13 +54,13 @@ export default function Navbar() {
               </li>
             </ul>
           </div>
-          <div className="d-flex justify-content-end align-items-center">
-            <Link to="/pembelian" className="pesanan">
-              <b>Kelola Pesanan</b>
-            </Link>
-          </div>
         </div>
       </nav>
+      <div className="pesanan-container">
+        <Link to="/pembelian" className="pesanan">
+          <b>Kelola Pesanan</b>
+        </Link>
+      </div>
     </div>
   );
 }
