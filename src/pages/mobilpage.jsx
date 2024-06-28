@@ -242,44 +242,44 @@ export default function Mobilepage() {
       </div>
       <div className="row">
         <div className="destinasi">
-          <h7>Destinasi Teratas di Seluruh Dunia</h7>
+          <h7>Destinasi Teratas di Indonesia</h7>
           <ul id="daftarDestinasi">
             <li>
-              <a href="#" onClick={() => isiLokasiPenjemputan("Condong Catur")}>
-                Condong Catur
+              <a href="#" onClick={() => isiLokasiPenjemputan("Yogyakarta")}>
+                Yogyakarta
               </a>
             </li>
             <li>
-              <a href="#" onClick={() => isiLokasiPenjemputan("Kaliurang")}>
-                Kaliurang
+              <a href="#" onClick={() => isiLokasiPenjemputan("Jakarta")}>
+                Jakarta
               </a>
             </li>
             <li>
               <a
                 href="#"
-                onClick={() => isiLokasiPenjemputan("Kota Yogyakarta")}
+                onClick={() => isiLokasiPenjemputan("Bali")}
               >
-                Kota Yogyakarta
+                Bali
               </a>
             </li>
           </ul>
         </div>
         <div className="bandara">
-          <h7>Bandara Teratas di Seluruh Dunia</h7>
+          <h7>Bandara Teratas di Indonesia</h7>
           <ul id="daftarBandara">
             <li>
-              <a href="#" onClick={() => isiLokasiPenjemputan("Bandara DIY")}>
-                Bandara DIY
+              <a href="#" onClick={() => isiLokasiPenjemputan("Bandara Yogyakarta")}>
+                Bandara Yogyakarta
               </a>
             </li>
             <li>
-              <a href="#" onClick={() => isiLokasiPenjemputan("Bandara DIC")}>
-                Bandara DIC
+              <a href="#" onClick={() => isiLokasiPenjemputan("Bandara Jakarta")}>
+                Bandara Jakarta
               </a>
             </li>
             <li>
-              <a href="#" onClick={() => isiLokasiPenjemputan("Bandara DIK")}>
-                Bandara DIK
+              <a href="#" onClick={() => isiLokasiPenjemputan("Bandara Bali")}>
+                Bandara Bali
               </a>
             </li>
           </ul>

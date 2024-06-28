@@ -3,8 +3,8 @@ import Homepage from './pages/homepage';
 import Storiespage from './pages/storiespage';
 import Mobilepage from './pages/mobilpage';
 import Bmw from './pages/bmw';
-import TrickPage from './pages/trickpage';
 import Penawaranpages from './pages/penawaran';
+import AboutPage from './pages/aboutpage';
 import Bugatti from './pages/bugatti';
 import Ferrari from './pages/ferrari';
 import Lamborghini from './pages/lamborghini';
@@ -34,7 +34,7 @@ function App() {
           <Route path="/mobil/honda" element={<Honda />} />
           <Route path="/mobil/ford" element={<Ford />} />
           <Route path="/mobil/porsche" element={<Porsche />} />
-          <Route path="/trick" element={<TrickPage />} />
+          <Route path="/trick" element={<AboutPage />} />
           <Route path="/penawaran" element={<Penawaranpages />} />
           <Route path="/pembelian" element={<Pembelian />} />
           <Route path="/team" element={<Team />} />
