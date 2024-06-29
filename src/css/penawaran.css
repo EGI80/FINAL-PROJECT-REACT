@@ -1,60 +1,39 @@
-body {
-    font-family: "Radio Canada Big", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    /* background-color: rgb(156, 129, 129); */
+.penawaran-deals {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
 }
+
+.penawaran-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
 .penawaran-top {
-    background-image: url('/img/leaf.jpg');
-    align-items: end;
-    height: 19rem;
-    display: flex;
-    justify-content: space-evenly;
+    margin-bottom: 30px;
 }
+
+.penawaran-form {
+    margin-bottom: 20px;
+}
+
 .penawaran-mid {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding: 30px;
 }
-.penawaran-cardp {
-    background-color: aquamarine;
-    border-radius: 20px;
+
+.penawaran-card-header {
+    height: 200px;
+    overflow: hidden;
 }
-.penawaran-card-header img {
-    border-radius: 20px;
+
+.penawaran-card-title {
+    text-align: center;
 }
-.penawaran-top .penawaran-title {
-    font-size: 34px;
-    font-weight: bold;
-    color: aliceblue;
-}
-.penawaran-top .penawaran-form {
-    background-color: rgb(255, 255, 255);
-    padding: 15px;
-    border-radius: 10px;
-}
-.penawaran-top .penawaran-form input {
+
+.penawaran-card-img-top {
+    object-fit: cover;
     width: 100%;
-    height: 20px;
-    border-radius: 5px;
-}
-.penawaran-mid .penawaran-card-header img {
-    width: 23rem;
-    height: 20rem;
-}
-.penawaran-card .penawaran-card-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.penawaran-before-footer img {
-    width: 9rem;
-    height: 6rem;
-}
-.penawaran-duo {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 20px;
+    height: 100%;
 }

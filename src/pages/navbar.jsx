@@ -38,15 +38,15 @@ export default function Navbar() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/trick">
-                  About
-                </Link>
-              </li>
-              <li className="nav-item">
                 <Link className="nav-link" to="/penawaran">
                   Office
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/trick">
+                  About
+                </Link>
+                </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/team">
                   Our Team

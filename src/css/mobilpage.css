@@ -127,7 +127,7 @@
 }
 .destinasi{
     margin-left: 100px;
-    margin-right: 100px;
+    margin-right: 150px;
     margin-top: 100px;
 }
 #detailKota {
@@ -135,66 +135,71 @@
     margin-top: 20px;
     font-weight: bold;
 }
-.faq-form {
+.mobilepage-faqform {
     margin-top: 100px;
     max-width: 500px;
     margin-left: 70px;
     margin-right: auto;
-  }  
-.faq-form h6 {
+  }
+  
+  .mobilepage-faqform h6 {
     margin-bottom: 15px;
-} 
-.faq-form .form-group {
+  }
+  
+  .mobilepage-faqform .form-group {
     margin-bottom: 1rem;
     display: flex;
-    align-items: center;
-}
-.faq-form label {
+  }
+  
+  .mobilepage-faqform label {
     flex-grow: 1;
-}
-.faq-form .btn-link {
-    margin-left: auto;
-    margin-top: 5px; 
-}  
-.faq-form p {
-  background-color: #f8f9fa;
-  border: 1px solid #ced4da;
-  border-radius: 4px;
-  padding: 10px;
-  margin-top: 10px;
-  display: none;
-}
-.faq-informasi {
+  }
+  
+  .mobilepage-faqform .btn-link {
+    margin-left: 500px;
+    margin-top: -40px;
+  }
+  
+  .mobilepage-faqform p {
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 10px;
+    margin-top: 10px;
+    display: none;
+  }
+  
+.mobilepage-faqinformasi {
     max-width: 500px;
-    margin-left: 730px;
+    margin-left: 830px;
     margin-right: auto;
-    margin-top: -300px;
+    margin-top: -245px;
   }
   
-  .faq-informasi h6 {
+  .mobilepage-faqinformasi h6 {
     margin-bottom: 15px;
   }
   
-  .faq-informasi .form-group {
+  .mobilepage-faqinformasi .form-group {
     margin-bottom: 1rem;
     display: flex;
-    align-items: center;
   }
   
-  .faq-informasi label {
+  .mobilepage-faqinformasi label {
     flex-grow: 1;
   }
-  .faq-box .btn-link {
+  
+  .mobilepage-faqinformasi .btn-link {
     margin-left: auto;
-    margin-top: 5px; 
+    margin-top: -40px; 
   }
   
+  .mobilepage-faqinformasi p {
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 10px;
+    margin-top: 10px;
+    display: none;
+  }
   
-.faq-informasi p {
-  background-color: #f8f9fa;
-  border: 1px solid #ced4da;
-  border-radius: 4px;
-  padding: 10px;
-  margin-top: 10px;
-  display: none;
-}

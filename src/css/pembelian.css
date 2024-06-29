@@ -1,41 +1,84 @@
-#idBody{
-    color: #000;overflow-x: hidden;
-    height: 100%;background-image: url("/img/pesawat1.jpg");
-    background-repeat: no-repeat;background-size: 300vh}
-
-.card-w{padding: 30px 40px;margin-top: 60px;
-    margin-bottom: 60px;border: none !important;
-    box-shadow: 0 6px 12px 0 rgba(0,0,0,0.2)}
-
-.blue-text{color: #00BCD4}
-
-.form-control-label{margin-bottom: 0}
-
-input, textarea, button{
-    padding: 8px 15px;
-    border-radius: 5px !important;
-    margin: 5px 0px;
-    box-sizing: border-box;
+.pembelian-container {
+    color: #000;
+    overflow-x: hidden;
+    min-height: 100vh;
+    background-image: url("/img/pesawat1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-wrapper {
+    width: 100%;
+    max-width: 800px;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+  }
+  
+  .form-wrapper h3 {
+    margin-bottom: 1.5rem;
+  }
+  
+  .card {
+    padding: 2rem;
+    border: none;
+  }
+  
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  
+  .form-group label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  input, select, button {
+    padding: 0.75rem;
+    border-radius: 5px;
+    margin: 0.5rem 0;
     border: 1px solid #ccc;
-    font-size: 18px !important;
-    font-weight: 300}
-input:focus, textarea:focus{
-    -moz-box-shadow: none !important;
-    -webkit-box-shadow: none !important;
-    box-shadow: none !important;
-    border: 1px solid #00BCD4;
-    outline-width: 0;font-weight: 400}
-
-.btn-block{
+    font-size: 16px;
+  }
+  
+  input:focus, select:focus {
+    border-color: #00BCD4;
+    outline: none;
+  }
+  
+  .btn-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .btn-block {
     text-transform: uppercase;
-    font-size: 15px !important;
-    font-weight: 400;height: 43px;
-    cursor: pointer}
-.btn-block:hover{
-    color: #fff !important}
-
-button:focus{
-    -moz-box-shadow: none !important;
-    -webkit-box-shadow: none !important;
-    box-shadow: none !important;
-    outline-width: 0}
+    font-size: 16px;
+    font-weight: 600;
+    height: 43px;
+    cursor: pointer;
+  }
+  
+  .btn-block:hover {
+    background-color: #007BFF;
+    color: #fff;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  

@@ -135,4 +135,19 @@ body {
     opacity: 1;
     transform: translateY(0);
   }
-
+  .card-group {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Change to 3 columns */
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card-group .card {
+    max-width: 100%;
+    text-align: center;
+  }
+  .card-group .card img {
+    border: 3px solid #ffffff; /* Atur border untuk semua logo */
+    border-radius: 50%; /* Agar semua logo menjadi bulat */
+  }

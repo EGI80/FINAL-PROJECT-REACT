@@ -285,187 +285,188 @@ export default function Mobilepage() {
           </ul>
         </div>
         <form id="faqForm">
-          <div className="faq-form">
-            <h6>Pertanyaan yang Sering Diajukan:</h6>
-            <div className="form-group">
-              <label htmlFor="question1">
-                Apa yang saya perlukan jika ingin menyewa mobil?
-              </label>
-              <button
-                type="button"
-                className="btn btn-link"
-                onClick={() => toggleFAQAnswer("answer1")}
-              >
-                ▼
-              </button>
-            </div>
-            <p id="answer1" style={{ display: "none" }}>
-              Apa yang saya perlukan untuk menyewa mobil?
-              <br />
-              Untuk memesan mobil, yang Anda perlukan hanyalah kartu kredit atau
-              debit. <br /> &gt;Saat Anda mengambil mobil, Anda memerlukan:
-              <br />
-              &gt;Voucher / eVoucher Anda, untuk menunjukkan bahwa Anda telah
-              membayar mobil tersebut.
-              <br />
-              &gt;Kartu kredit/debit pengemudi utama, dengan dana yang tersedia
-              cukup untuk deposit mobil.
-              <br />
-              &gt;Surat Izin Mengemudi lengkap dan sah milik masing-masing
-              pengemudi, yang telah mereka miliki setidaknya selama 12 bulan
-              (seringkali 24 bulan).
-            </p>
-            <div className="form-group">
-              <label htmlFor="question2">
-                Bagaimana cara menemukan kesepakatan sewa mobil termurah?
-              </label>
-              <button
-                type="button"
-                className="btn btn-link"
-                onClick={() => toggleFAQAnswer("answer2")}
-              >
-                ▼
-              </button>
-            </div>
-            <p id="answer2" style={{ display: "none" }}>
-              Kami bekerja sama dengan semua merek persewaan mobil Terkenal
-              <br /> untuk memberikan Anda banyak pilihan mobil dengan harga
-              terbaik.
-              <br /> Begitulah cara kami menemukan penawaran sewa mobil murah
-              untuk Anda di lebih dari 10.000 lokasi di seluruh Indonesia.
-              <br /> Untuk membandingkan harga dan menemukan mobil ideal Anda
-              dengan harga yang tidak ada duanya, cukup gunakan formulir
-              pencarian kami.
-            </p>
-            <div className="form-group">
-              <label htmlFor="question3">
-                Apa yang harus saya perhatikan saat memilih mobil?
-              </label>
-              <button
-                type="button"
-                className="btn btn-link"
-                onClick={() => toggleFAQAnswer("answer3")}
-              >
-                ▼
-              </button>
-            </div>
-            <p id="answer3" style={{ display: "none" }}>
-              &gt;Ruang: Anda akan lebih menikmati sewa jika memilih mobil
-              dengan banyak ruang untuk penumpang dan bagasi.
-              <br />
-              &gt;Kebijakan bahan bakar: Tidak berencana untuk banyak mengemudi?
-              Kebijakan Suka untuk bahan bakar serupa dapat menghemat banyak
-              uang.
-              <br />
-              &gt;Lokasi: Anda tidak bisa mengalahkan penjemputan 'di bandara'
-              dalam hal kenyamanan, namun penjemputan 'di luar bandara' dengan
-              bus antar-jemput bisa jauh lebih murah.
-            </p>
-            <div className="form-group">
-              <label htmlFor="question4">
-                Apakah semua biaya sudah termasuk dalam harga sewa?
-              </label>
-              <button
-                type="button"
-                className="btn btn-link"
-                onClick={() => toggleFAQAnswer("answer4")}
-              >
-                ▼
-              </button>
-            </div>
-            <p id="answer4" style={{ display: "none" }}>
-              Sebagian besar sewa kami mencakup Perlindungan Pencurian,
-              Pengabaian Kerusakan Akibat Tabrakan (CDW), pajak daerah, biaya
-              tambahan bandara, dan biaya jalan lainnya. Anda akan membayar
-              'ekstra' apa pun saat mengambil mobil, beserta pengemudi di bawah
-              umur, pengemudi tambahan, atau biaya sekali jalan – namun kami
-              akan menjelaskan biaya tambahan apa pun sebelum Anda memesan mobil
-              (dan mengambil kursi anak Anda sendiri atau GPS dapat menjadi cara
-              mudah untuk mengurangi biaya Anda). Untuk detail lebih lanjut
-              tentang apa yang disertakan, cukup periksa Syarat &amp; Ketentuan
-              mobil mana pun yang Anda lihat.
-            </p>
-          </div>
-        </form>
+        <div className="mobilepage-faqform">
+        <h6 style={{ fontWeight: 'bold' }}>Pertanyaan yang Sering Diajukan:</h6>
+    <div className="form-group">
+      <label htmlFor="question1">
+        Apa yang saya perlukan jika ingin menyewa mobil?
+      </label>
+      <button
+        type="button"
+        className="btn btn-link"
+        onClick={() => toggleFAQAnswer("answer1")}
+      >
+        ▼
+      </button>
+    </div>
+    <p id="answer1" style={{ display: "none" }}>
+      Apa yang saya perlukan untuk menyewa mobil?
+      <br />
+      Untuk memesan mobil, yang Anda perlukan hanyalah kartu kredit atau
+      debit. <br /> &gt;Saat Anda mengambil mobil, Anda memerlukan:
+      <br />
+      &gt;Voucher / eVoucher Anda, untuk menunjukkan bahwa Anda telah
+      membayar mobil tersebut.
+      <br />
+      &gt;Kartu kredit/debit pengemudi utama, dengan dana yang tersedia
+      cukup untuk deposit mobil.
+      <br />
+      &gt;Surat Izin Mengemudi lengkap dan sah milik masing-masing
+      pengemudi, yang telah mereka miliki setidaknya selama 12 bulan
+      (seringkali 24 bulan).
+    </p>
+    <div className="form-group">
+      <label htmlFor="question2">
+        Bagaimana cara menemukan sewa mobil termurah ?      
+      </label>
+      <button
+        type="button"
+        className="btn btn-link"
+        onClick={() => toggleFAQAnswer("answer2")}
+      >
+        ▼
+      </button>
+    </div>
+    <p id="answer2" style={{ display: "none" }}>
+      Kami bekerja sama dengan semua merek persewaan mobil Terkenal
+      <br /> untuk memberikan Anda banyak pilihan mobil dengan harga
+      terbaik.
+      <br /> Begitulah cara kami menemukan penawaran sewa mobil murah
+      untuk Anda di lebih dari 10.000 lokasi di seluruh Indonesia.
+      <br /> Untuk membandingkan harga dan menemukan mobil ideal Anda
+      dengan harga yang tidak ada duanya, cukup gunakan formulir
+      pencarian kami.
+    </p>
+    <div className="form-group">
+      <label htmlFor="question3">
+        Apa yang harus saya perhatikan saat memilih mobil?
+      </label>
+      <button
+        type="button"
+        className="btn btn-link"
+        onClick={() => toggleFAQAnswer("answer3")}
+      >
+        ▼
+      </button>
+    </div>
+    <p id="answer3" style={{ display: "none" }}>
+      &gt;Ruang: Anda akan lebih menikmati sewa jika memilih mobil
+      dengan banyak ruang untuk penumpang dan bagasi.
+      <br />
+      &gt;Kebijakan bahan bakar: Tidak berencana untuk banyak mengemudi?
+      Kebijakan Suka untuk bahan bakar serupa dapat menghemat banyak
+      uang.
+      <br />
+      &gt;Lokasi: Anda tidak bisa mengalahkan penjemputan 'di bandara'
+      dalam hal kenyamanan, namun penjemputan 'di luar bandara' dengan
+      bus antar-jemput bisa jauh lebih murah.
+    </p>
+    <div className="form-group">
+      <label htmlFor="question4">
+        Apakah semua biaya sudah termasuk harga sewa?
+      </label>
+      <button
+        type="button"
+        className="btn btn-link"
+        onClick={() => toggleFAQAnswer("answer4")}
+      >
+        ▼
+      </button>
+    </div>
+    <p id="answer4" style={{ display: "none" }}>
+      Sebagian besar sewa kami mencakup Perlindungan Pencurian,
+      Pengabaian Kerusakan Akibat Tabrakan (CDW), pajak daerah, biaya
+      tambahan bandara, dan biaya jalan lainnya. Anda akan membayar
+      'ekstra' apa pun saat mengambil mobil, beserta pengemudi di bawah
+      umur, pengemudi tambahan, atau biaya sekali jalan – namun kami
+      akan menjelaskan biaya tambahan apa pun sebelum Anda memesan mobil
+      (dan mengambil kursi anak Anda sendiri atau GPS dapat menjadi cara
+      mudah untuk mengurangi biaya Anda). Untuk detail lebih lanjut
+      tentang apa yang disertakan, cukup periksa Syarat &amp; Ketentuan
+      mobil mana pun yang Anda lihat.
+    </p>
+  </div>
+</form>
       </div>
       <form id="faqinformasi">
-        <div className="faq-informasi">
-          <h6>Informasi Tambahan:</h6>
-          <div className="form-group">
-            <label htmlFor="informasi1">Pengalaman Berkendara</label>
-            <button
-              type="button"
-              className="btn btn-link"
-              onClick={() => toggleInfoAnswer("informasi1")}
-            >
-              ▼
-            </button>
-          </div>
-          <p id="informasi1" style={{ display: "none" }}>
-            Pengalaman Berkendara
-            <br />
-            Menyewa mobil mewah bisa memberikan pengalaman berkendara yang lebih
-            nyaman dan mewah.
-            <br /> Dengan performa mesin yang superior dan desain interior yang
-            elegan, pengguna dapat menikmati perjalanan dengan gaya dan
-            kemewahan.
-            <br />
-          </p>
-          <div className="form-group">
-            <label htmlFor="informasi2">Penyedia Layanan</label>
-            <button
-              type="button"
-              className="btn btn-link"
-              onClick={() => toggleInfoAnswer("informasi2")}
-            >
-              ▼
-            </button>
-          </div>
-          <p id="informasi2" style={{ display: "none" }}>
-            Banyak agen rental mobil mewah yang menyediakan layanan di berbagai
-            kota besar
-            <br />
-            dan destinasi wisata di seluruh dunia. Beberapa agen memiliki cabang
-            di bandara atau hotel-hotel mewah
-            <br />
-            untuk memudahkan pelanggan dalam mengakses layanan penyewaan.
-          </p>
-          <div className="form-group">
-            <label htmlFor="informasi3">Fitur Khusus</label>
-            <button
-              type="button"
-              className="btn btn-link"
-              onClick={() => toggleInfoAnswer("informasi3")}
-            >
-              ▼
-            </button>
-          </div>
-          <p id="informasi3" style={{ display: "none" }}>
-            {" "}
-            Mobil mewah sering dilengkapi dengan fitur-fitur khusus seperti
-            interior kulit berkualitas tinggi,
-            <br /> sistem hiburan mutakhir, sistem navigasi GPS, teknologi
-            keamanan canggih,
-            <br /> dan fitur-fitur lain yang meningkatkan kenyamanan dan
-            kemewahan pengguna.{" "}
-          </p>
-          <div className="form-group">
-            <label htmlFor="informasi4">Asuransi</label>
-            <button
-              type="button"
-              className="btn btn-link"
-              onClick={() => toggleInfoAnswer("informasi4")}
-            >
-              ▼
-            </button>
-          </div>
-          <p id="informasi4" style={{ display: "none" }}>
-            Rental mobil mewah juga biasanya menawarkan opsi asuransi tambahan
-            untuk melindungi penyewa dari kerusakan, kehilangan, atau kecelakaan
-            saat menggunakan mobil.
-          </p>
-        </div>
-      </form>
+  <div className="mobilepage-faqinformasi">
+  <h6 style={{ fontWeight: 'bold' }}>Informasi Tambahan:</h6>
+    <div className="form-group">
+      <label htmlFor="informasi1">Pengalaman Berkendara</label>
+      <button
+        type="button"
+        className="btn btn-link"
+        onClick={() => toggleInfoAnswer("informasi1")}
+      >
+        ▼
+      </button>
+    </div>
+    <p id="informasi1" style={{ display: "none" }}>
+      Pengalaman Berkendara
+      <br />
+      Menyewa mobil mewah bisa memberikan pengalaman berkendara yang lebih
+      nyaman dan mewah.
+      <br /> Dengan performa mesin yang superior dan desain interior yang
+      elegan, pengguna dapat menikmati perjalanan dengan gaya dan
+      kemewahan.
+      <br />
+    </p>
+    <div className="form-group">
+      <label htmlFor="informasi2">Penyedia Layanan</label>
+      <button
+        type="button"
+        className="btn btn-link"
+        onClick={() => toggleInfoAnswer("informasi2")}
+      >
+        ▼
+      </button>
+    </div>
+    <p id="informasi2" style={{ display: "none" }}>
+      Banyak agen rental mobil mewah yang menyediakan layanan di berbagai
+      kota besar
+      <br />
+      dan destinasi wisata di seluruh dunia. Beberapa agen memiliki cabang
+      di bandara atau hotel-hotel mewah
+      <br />
+      untuk memudahkan pelanggan dalam mengakses layanan penyewaan.
+    </p>
+    <div className="form-group">
+      <label htmlFor="informasi3">Fitur Khusus</label>
+      <button
+        type="button"
+        className="btn btn-link"
+        onClick={() => toggleInfoAnswer("informasi3")}
+      >
+        ▼
+      </button>
+    </div>
+    <p id="informasi3" style={{ display: "none" }}>
+      {" "}
+      Mobil mewah sering dilengkapi dengan fitur-fitur khusus seperti
+      interior kulit berkualitas tinggi,
+      <br /> sistem hiburan mutakhir, sistem navigasi GPS, teknologi
+      keamanan canggih,
+      <br /> dan fitur-fitur lain yang meningkatkan kenyamanan dan
+      kemewahan pengguna.{" "}
+    </p>
+    <div className="form-group">
+      <label htmlFor="informasi4">Asuransi</label>
+      <button
+        type="button"
+        className="btn btn-link"
+        onClick={() => toggleInfoAnswer("informasi4")}
+      >
+        ▼
+      </button>
+    </div>
+    <p id="informasi4" style={{ display: "none" }}>
+      Rental mobil mewah juga biasanya menawarkan opsi asuransi tambahan
+      untuk melindungi penyewa dari kerusakan, kehilangan, atau kecelakaan
+      saat menggunakan mobil.
+    </p>
+  </div>
+</form>
+
       <div id="detailKota" />
     </>
   );
