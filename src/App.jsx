@@ -11,11 +11,13 @@ import Lamborghini from './pages/lamborghini';
 import Honda from './pages/honda';
 import Ford from './pages/ford';
 import Porsche from './pages/porsche';
+import Navbar from './pages/navbar';
 import Pembelian from './pages/pembelian';
 import Team from './pages/team';
 import LoginForm from './pages/Login'
 import Footer from './pages/footer';
-import Navbar from './pages/navbar';
+import Register from './pages/register';
+
 
 
 function App() {
@@ -39,6 +41,7 @@ function App() {
           <Route path="/pembelian" element={<Pembelian />} />
           <Route path="/team" element={<Team />} />
           <Route path="/login" element={<LoginForm />} />
+          <Route path="/register" element={<Register />} />
         </Routes>
         <Footer/>
       </BrowserRouter>

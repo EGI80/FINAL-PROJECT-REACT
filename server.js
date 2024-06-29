@@ -14,7 +14,7 @@ app.use(bodyParser.json());
 const db = mysql.createConnection({
   host: 'localhost',
   user: 'root',
-  password: '', // Isi dengan password MySQL Anda jika ada
+  password: '', // Sesuaikan dengan password MySQL Anda jika diatur
   database: 'pembelian'
 });
 
@@ -27,11 +27,37 @@ db.connect(err => {
   console.log('connected to database as id ' + db.threadId);
 });
 
-// Endpoint untuk login admin
+// Endpoint for user registration
+app.post('/api/register', (req, res) => {
+  const { username, password, email } = req.body;
+
+  // Check if username already exists
+  db.query('SELECT * FROM users WHERE username = ?', [username], (err, results) => {
+    if (err) {
+      console.error(err);
+      res.status(500).json({ error: 'Database error' });
+    } else if (results.length > 0) {
+      res.status(409).json({ success: false, message: 'Username already exists' });
+    } else {
+      // Insert new user into the database
+      db.query('INSERT INTO users (username, password, email) VALUES (?, ?, ?)', [username, password, email], (err, result) => {
+        if (err) {
+          console.error(err);
+          res.status(500).json({ error: 'Failed to register user' });
+        } else {
+          res.status(201).json({ success: true, message: 'Registration successful' });
+        }
+      });
+    }
+  });
+});
+
+// Endpoint for user login
+// Endpoint for user login
 app.post('/api/login', (req, res) => {
   const { username, password } = req.body;
 
-  const sql = 'SELECT * FROM admin WHERE user = ? AND password = ?';
+  const sql = 'SELECT * FROM users WHERE username = ? AND password = ?';
   const values = [username, password];
 
   db.query(sql, values, (err, results) => {
