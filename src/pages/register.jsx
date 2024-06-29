@@ -1,20 +1,27 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 
-const Login = () => {
+const Register = () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
+  const [confirmPassword, setConfirmPassword] = useState('');
   const [message, setMessage] = useState('');
 
   const handleSubmit = async (event) => {
     event.preventDefault();
+    if (password !== confirmPassword) {
+      setMessage('Passwords do not match');
+      return;
+    }
+
     try {
-      const response = await axios.post('http://localhost:3001/api/login', {
+      const response = await axios.post('http://localhost:3001/api/register', {
         username,
-        password
+        password,
+        email: '' // Add email field if needed
       });
       if (response.data.success) {
-        setMessage('Login successful');
+        setMessage('Registration successful');
         // Uncomment the following line if you want to redirect after showing the success message
         // window.location.href = "/";
       } else {
@@ -32,8 +39,8 @@ const Login = () => {
         <div className="col-md-4 mx-auto">
           <div className="card">
             <div className="card-body">
-              <h3 className="card-title text-center mb-4">Login</h3>
-              {message && <div className={`alert ${message === 'Login successful' ? 'alert-success' : 'alert-danger'}`}>{message}</div>}
+              <h3 className="card-title text-center mb-4">Register</h3>
+              {message && <div className={`alert ${message === 'Registration successful' ? 'alert-success' : 'alert-danger'}`}>{message}</div>}
               <form onSubmit={handleSubmit}>
                 <div className="form-group">
                   <label htmlFor="username">Username</label>
@@ -59,8 +66,20 @@ const Login = () => {
                     required
                   />
                 </div>
+                <div className="form-group">
+                  <label htmlFor="confirmPassword">Confirm Password</label>
+                  <input
+                    type="password"
+                    className="form-control"
+                    id="confirmPassword"
+                    placeholder="Confirm password"
+                    value={confirmPassword}
+                    onChange={(e) => setConfirmPassword(e.target.value)}
+                    required
+                  />
+                </div>
                 <button type="submit" className="btn btn-primary btn-block">
-                  Login
+                  Register
                 </button>
               </form>
             </div>
@@ -71,4 +90,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default Register;

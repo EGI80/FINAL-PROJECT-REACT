@@ -4,30 +4,6 @@ import '../css/penawaran.css';
 const Penawaran = () => {
     return (
         <div className="penawaran-deals">
-            <nav className="penawaran-navbar navbar navbar-expand-lg navbar-dark bg-primary">
-                <div className="container-fluid">
-                    <a className="navbar-brand" href="#">Trips Explore</a>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
-                    <div className="collapse navbar-collapse" id="navbarNav">
-                        <ul className="navbar-nav">
-                            <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="#">Cars</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="#">Deals</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link disabled" href="#" tabIndex="-1" aria-disabled="true"></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
             <div className="penawaran-top">
                 <div className="w-2 penawaran-title">
                     <h1>Flight deals from Jakarta, Indonesia</h1>
